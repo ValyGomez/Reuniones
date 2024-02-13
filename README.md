@@ -1,13 +1,13 @@
-#Reuniones
+# Reuniones
 
-##Crear modulo
+## Crear módulo
 
-- Abrir terminal en el contenedor de docker
-- Lanzar odoo con Scaffold para crear esrtructura del modulo
-odoo scaffold reuniones /mnt/extra-addons/
+- Abrir terminal en el contenedor de Docker (p.ej. desde Services de PyCharm)
+- Lanzar odoo con scaffold para crear estructura del módulo  
+odoo@ac2ddbebc1da:/$ odoo scaffold /mnt/extra-addons/reuniones
 
-##Tablas
+## Tablas
 
--Reuniones_sala
--Reuniones_reunion
--Res_partner_reuniones_reunion_rel
+- reuniones_sala
+- reuniones_reunion
+- res_partner_reuniones_reunion_rel
