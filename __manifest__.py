@@ -15,7 +15,7 @@ Long description of module's purpose
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '0.5',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
@@ -23,10 +23,11 @@ Long description of module's purpose
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'views/reunion_view.xml',
+        'views/sala_view.xml',
     ],
     # only loaded in demonstration mode
+
     'demo': [
         'demo/demo.xml',
     ],
